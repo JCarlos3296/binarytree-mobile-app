@@ -1,12 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e55fb44-776f-400c-adfc-3290dfd1ac9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/maintenance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logic/operations.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logic/stack.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/CalculatorPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/InfoPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manifest.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1s0eNo1DLHkpmQSQdmi4DEfqA7s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/logic" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e55fb44-776f-400c-adfc-3290dfd1ac9c" name="Default Changelist" comment="" />
+      <created>1620013896957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620013896957</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2195" y="290" key="AndroidProcessChooserDialog" timestamp="1620447056101">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2195" y="290" key="AndroidProcessChooserDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620447056101" />
+    <state width="475" height="466" key="DebuggerActiveHint" timestamp="1621620681050">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="475" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1621620681050" />
+    <state width="1023" height="279" key="GridCell.Tab.0.bottom" timestamp="1621636365128">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928132" />
+    <state width="1878" height="227" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350070" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004203" />
+    <state width="1023" height="279" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1621636365128" />
+    <state width="1023" height="279" key="GridCell.Tab.0.center" timestamp="1621636365128">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928131" />
+    <state width="1878" height="227" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350068" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004201" />
+    <state width="1023" height="279" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1621636365128" />
+    <state width="1023" height="279" key="GridCell.Tab.0.left" timestamp="1621636365127">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928130" />
+    <state width="1878" height="227" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350066" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004199" />
+    <state width="1023" height="279" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1621636365127" />
+    <state width="1023" height="279" key="GridCell.Tab.0.right" timestamp="1621636365128">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928131" />
+    <state width="1878" height="227" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350069" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004202" />
+    <state width="1023" height="279" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1621636365128" />
+    <state x="1584" y="299" key="IDE.errors.dialog" timestamp="1620013926546">
+      <screen x="1440" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1584" y="299" key="IDE.errors.dialog/0.25.1440.875/1440.25.1920.1055@1440.25.1920.1055" timestamp="1620013926546" />
+    <state x="274" y="168" key="RollbackChangesDialog" timestamp="1620970182069">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="274" y="168" key="RollbackChangesDialog/0.25.1440.875@0.25.1440.875" timestamp="1620970182069" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1621572958355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1621572958355" />
   </component>
 </project>
