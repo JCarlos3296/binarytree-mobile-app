@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e55fb44-776f-400c-adfc-3290dfd1ac9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/logic/expressionTree.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logic/nodo.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/logic/operations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/operations.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/CalculatorPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/CalculatorPage.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +53,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -111,38 +106,38 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="475" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1621620681050" />
-    <state width="993" height="240" key="GridCell.Tab.0.bottom" timestamp="1621988349856">
+    <state width="993" height="240" key="GridCell.Tab.0.bottom" timestamp="1622138870307">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928132" />
     <state width="1878" height="227" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350070" />
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004203" />
     <state width="1008" height="423" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.1055@1440.25.1920.1055" timestamp="1621655861555" />
-    <state width="993" height="240" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1621988349856" />
-    <state width="993" height="240" key="GridCell.Tab.0.center" timestamp="1621988349856">
+    <state width="993" height="240" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1622138870307" />
+    <state width="993" height="240" key="GridCell.Tab.0.center" timestamp="1622138870307">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928131" />
     <state width="1878" height="227" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350068" />
     <state width="1878" height="305" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004201" />
     <state width="1008" height="423" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.1055@1440.25.1920.1055" timestamp="1621655861554" />
-    <state width="993" height="240" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1621988349856" />
-    <state width="993" height="240" key="GridCell.Tab.0.left" timestamp="1621988349856">
+    <state width="993" height="240" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1622138870307" />
+    <state width="993" height="240" key="GridCell.Tab.0.left" timestamp="1622138870306">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928130" />
     <state width="1878" height="227" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350066" />
     <state width="1878" height="305" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004199" />
     <state width="1008" height="423" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.1055@1440.25.1920.1055" timestamp="1621655861554" />
-    <state width="993" height="240" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1621988349856" />
-    <state width="993" height="240" key="GridCell.Tab.0.right" timestamp="1621988349856">
+    <state width="993" height="240" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1622138870306" />
+    <state width="993" height="240" key="GridCell.Tab.0.right" timestamp="1622138870307">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1620968928131" />
     <state width="1878" height="227" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1621394350069" />
     <state width="1878" height="305" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1620450004202" />
     <state width="1008" height="423" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.1055@1440.25.1920.1055" timestamp="1621655861554" />
-    <state width="993" height="240" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1621988349856" />
+    <state width="993" height="240" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1622138870307" />
     <state x="1584" y="299" key="IDE.errors.dialog" timestamp="1620013926546">
       <screen x="1440" y="25" width="1920" height="1055" />
     </state>

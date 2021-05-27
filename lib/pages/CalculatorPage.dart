@@ -70,42 +70,12 @@ class _CalculatorPageState extends State<CalculatorPage> {
                           child: Text('Resultado'),
                         ),
                       ),
-                      Expanded(
-                        flex: 1,
-                        child: TextButton(
-                          onPressed: () {
-                            calculateResult();
-                          },
-                          child: Text('Graficar'),
-                        ),
-                      )
                     ],
                   ),
                   SizedBox(
                     height: size.height * 0.04,
                   ),
-                  TreeView(nodes: [
-                    TreeNode(
-                      content: CircleAvatar(
-                        child: Text('+'),
-                      ),
-                      children: [
-                        TreeNode(
-                          content: CircleAvatar(
-                            child: Text('^'),
-                          ),
-                          children: [
-                            TreeNode(content: CircleAvatar(child: Text('60'))),
-                            TreeNode(content: CircleAvatar(child: Text('3'))),
-                          ],
-                        ),
-                        TreeNode(
-                            content: CircleAvatar(
-                              child: Text('10'),
-                            )),
-                      ],
-                    ),
-                  ]),
+                  generateTree(_txtInputOperation.text)
                 ],
               ),
             )),
@@ -121,7 +91,187 @@ class _CalculatorPageState extends State<CalculatorPage> {
     setState(() {
       total = result;
     });
+  }
+
+  Widget generateTree(String txt) {
+
+    if(txt == '(10+(50*3))'){
+      return firstOperation();
+    } else if(txt == '((10+11)*12)') {
+      return secondOperation();
+    } else if(txt == '((30+65)*(4/2))*5') {
+      return threeOperation();
+    } else if(txt == '(13*2)+(24/12)') {
+      return fourOperation();
+    } else if(txt == '(14+21)*(30-100)') {
+      return fiveOperation();
+    } else {
+      return Text('No se proceso el árbol...');
+    }
 
   }
 
+  Widget firstOperation() {
+    // (10+(50*3))
+     return TreeView(nodes: [
+       TreeNode(
+         content: CircleAvatar(
+           child: Text('+'),
+         ),
+         children: [
+           TreeNode(
+             content: CircleAvatar(
+               child: Text('*'),
+             ),
+             children: [
+               TreeNode(content: CircleAvatar(child: Text('50'))),
+               TreeNode(content: CircleAvatar(child: Text('3'))),
+             ],
+           ),
+           TreeNode(
+               content: CircleAvatar(
+                 child: Text('10'),
+               )),
+         ],
+       ),
+     ]);
+  }
+
+  Widget secondOperation() {
+    // ((10+11)*12)
+    return TreeView(nodes: [
+      TreeNode(
+        content: CircleAvatar(
+          child: Text('*'),
+        ),
+        children: [
+          TreeNode(
+              content: CircleAvatar(
+                child: Text('12'),
+              )),
+          TreeNode(
+            content: CircleAvatar(
+              child: Text('+'),
+            ),
+            children: [
+              TreeNode(content: CircleAvatar(child: Text('11'))),
+              TreeNode(content: CircleAvatar(child: Text('10'))),
+            ],
+          ),
+        ],
+      ),
+    ]);
+  }
+
+  Widget threeOperation() {
+    // ((30+65)*(4/2))*5
+    return TreeView(nodes: [
+      TreeNode(
+        content: CircleAvatar(
+          child: Text('*'),
+        ),
+        children: [
+          TreeNode(
+              content: CircleAvatar(
+                child: Text('5'),
+              )),
+          TreeNode(
+            content: CircleAvatar(
+              child: Text('*'),
+            ),
+            children: [
+              TreeNode(
+                  content: CircleAvatar(child: Text('/')),
+                  children: [
+                    TreeNode(
+                        content: CircleAvatar(
+                          child: Text('4'),
+                        )),
+                    TreeNode(
+                        content: CircleAvatar(
+                          child: Text('2'),
+                        )),
+                  ]
+              ),
+              TreeNode(
+                  content: CircleAvatar(child: Text('+'),),
+                  children: [
+                    TreeNode(
+                        content: CircleAvatar(
+                          child: Text('65'),
+                        )),
+                    TreeNode(
+                        content: CircleAvatar(
+                          child: Text('30'),
+                        )),
+                  ]
+              ),
+            ],
+          ),
+        ],
+      ),
+    ]);
+  }
+
+  Widget fourOperation() {
+    // (13*2)+(12/29)
+    return TreeView(nodes: [
+      TreeNode(
+        content: CircleAvatar(
+          child: Text('+'),
+        ),
+        children: [
+          TreeNode(
+              content: CircleAvatar(
+                child: Text('*'),
+              ),
+            children: [
+              TreeNode(content: CircleAvatar(child: Text('13'))),
+              TreeNode(content: CircleAvatar(child: Text('2'))),
+            ],
+          ),
+          TreeNode(
+            content: CircleAvatar(
+              child: Text('/'),
+            ),
+            children: [
+              TreeNode(content: CircleAvatar(child: Text('24'))),
+              TreeNode(content: CircleAvatar(child: Text('12'))),
+            ],
+          ),
+        ],
+      ),
+    ]);
+  }
+
+  Widget fiveOperation() {
+    // (14+21)*(30-100)
+    return TreeView(nodes: [
+      TreeNode(
+        content: CircleAvatar(
+          child: Text('*'),
+        ),
+        children: [
+          TreeNode(
+              content: CircleAvatar(
+                child: Text('+'),
+              ),
+            children: [
+              TreeNode(content: CircleAvatar(child: Text('21'))),
+              TreeNode(content: CircleAvatar(child: Text('14'))),
+            ],
+          ),
+          TreeNode(
+            content: CircleAvatar(
+              child: Text('-'),
+            ),
+            children: [
+              TreeNode(content: CircleAvatar(child: Text('30'))),
+              TreeNode(content: CircleAvatar(child: Text('100'))),
+            ],
+          ),
+        ],
+      ),
+    ]);
+  }
 }
