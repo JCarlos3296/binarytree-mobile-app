@@ -78,8 +78,10 @@ class Operation {
 
     strOp += '$leftOperand$op$rightOperation|';
 
+    print('$strOp');
+
     int result = 0;
-    print('$leftOperand $op $rightOperation');
+
     switch(op) {
       case '+':
         result = leftOperand + rightOperation;
@@ -91,7 +93,7 @@ class Operation {
         result = leftOperand * rightOperation;
         break;
       case '/':
-        result = (leftOperand / rightOperation) as int;
+        result = leftOperand ~/ rightOperation;
     }
 
     vStack.push(result);

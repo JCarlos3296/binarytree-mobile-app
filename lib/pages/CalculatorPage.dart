@@ -1,15 +1,22 @@
+import 'package:binarytree_mobile_app/logic/Nodo.dart';
+import 'package:binarytree_mobile_app/logic/expressionTree.dart';
 import 'package:binarytree_mobile_app/logic/operations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_simple_treeview/flutter_simple_treeview.dart';
 import 'package:lottie/lottie.dart';
 
-class CalculatorPage extends StatelessWidget {
+class CalculatorPage extends StatefulWidget {
+  @override
+  _CalculatorPageState createState() => _CalculatorPageState();
+}
+
+class _CalculatorPageState extends State<CalculatorPage> {
   final _txtInputOperation = TextEditingController();
+  int total = 0;
 
   @override
   Widget build(BuildContext context) {
 
-    final _formKey = GlobalKey<FormState>();
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(
@@ -42,20 +49,15 @@ class CalculatorPage extends StatelessWidget {
                     'Expresión',
                     textAlign: TextAlign.left,
                   ),
-                  Form(
-                    key: _formKey,
-                    child: TextFormField(
-                      controller: _txtInputOperation,
-                      validator: (value) {
-                        if(value == null || value.isEmpty) {
-                          return 'Ingrese operación';
-                        }
-                        return null;
-                      },
-                      decoration: InputDecoration(
-                          hintText: 'Escribe tu expresión',
-                      ),
+                  TextFormField(
+                    controller: _txtInputOperation,
+                    decoration: InputDecoration(
+                      hintText: 'Escribe tu expresión',
                     ),
+                  ),
+                  Text(
+                    'Resultado: $total',
+                    textAlign: TextAlign.left,
                   ),
                   Row(
                     children: [
@@ -69,13 +71,13 @@ class CalculatorPage extends StatelessWidget {
                         ),
                       ),
                       Expanded(
-                          flex: 1,
-                          child: TextButton(
-                            onPressed: () {
-                              calculateResult();
-                            },
-                            child: Text('Graficar'),
-                          ),
+                        flex: 1,
+                        child: TextButton(
+                          onPressed: () {
+                            calculateResult();
+                          },
+                          child: Text('Graficar'),
+                        ),
                       )
                     ],
                   ),
@@ -99,8 +101,8 @@ class CalculatorPage extends StatelessWidget {
                         ),
                         TreeNode(
                             content: CircleAvatar(
-                          child: Text('10'),
-                        )),
+                              child: Text('10'),
+                            )),
                       ],
                     ),
                   ]),
@@ -113,9 +115,13 @@ class CalculatorPage extends StatelessWidget {
 
   void calculateResult() {
     Operation opExec = new Operation();
-    print(_txtInputOperation.text.split(''));
+
     int result = opExec.evaluateExpression(_txtInputOperation.text.split(''));
-    print(result);
-    print(opExec.strOp);
+
+    setState(() {
+      total = result;
+    });
+
   }
+
 }
